@@ -52,7 +52,7 @@ private async initializeState(): Promise<void> {
 }
   public render(): JSX.Element {
 
-    const { userName, projectName, imageUrl} = this.state;
+    const { userName, projectName, imageUrl } = this.state;
 
     return (
       <Page className="flex-grow flex-self-center">
